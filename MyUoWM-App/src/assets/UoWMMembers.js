@@ -23,6 +23,12 @@ const UoWMMembers = [
     email: "",
     img: "https://avatars.githubusercontent.com/u/58138432?v=4",
   },
+  {
+    name: "Δημήτρης Γκούμας (Μέλος)",
+    socialMedia: "",
+    email: "",
+    img: "https://avatars.githubusercontent.com/u/68761197?v=4",
+  }
 ];
 
 export default UoWMMembers;

@@ -11,6 +11,7 @@ import enProjectMembers from "./assets/locales/en/project_members.js";
 import enSettingsPage from "./assets/locales/en/settings_page.js";
 import enAboutPage from "./assets/locales/en/about_page.js";
 import enError404 from "./assets/locales/en/error404.js"
+import enDays from "./assets/locales/en/days.js";
 
 import elRestaurant from "./assets/locales/el/restaurant.js";
 import elFreshmen from "./assets/locales/el/freshmen.js";
@@ -23,8 +24,11 @@ import elProjectMembers from "./assets/locales/el/project_members.js";
 import elSettingsPage from "./assets/locales/el/settings_page.js";
 import elAboutPage from "./assets/locales/el/about_page.js";
 import elError404 from "./assets/locales/el/error404.js"
+import elDays from "./assets/locales/el/days.js";
+
 import studentCare from "./assets/locales/el/studentCare.js";
 import services from "./assets/locales/en/services.js";
+
 
 const resources = {
   en: {
@@ -40,6 +44,7 @@ const resources = {
       ...enSettingsPage,
       ...enAboutPage,
       ...enError404,
+      ...enDays,
       ...studentCare,
       //categories.js
       current_department: "Current Department: ",
@@ -65,7 +70,7 @@ const resources = {
       graduation_redirection_message:"Redirecting to section",
       graduation_description:"Please select Department from Settings",
       on_weekend:"On Weekend",
-      restaurantPage: "Menu Anouncement & Proggram",
+      restaurantPage: "Menu Anouncement & Schedule",
       StudentPortal: "Student Portal",
        // Student Care
        StudentCare: "Salasidou Despina, Phone: 2467440003, E-mail: dsalasidou@uowm.gr, merimna-kas@uowm.gr",
@@ -122,6 +127,7 @@ const resources = {
       ...elSettingsPage,
       ...elAboutPage,
       ...elError404,
+      ...elDays,
       ...studentCare,
 
       //categories.js

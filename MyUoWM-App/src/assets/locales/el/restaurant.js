@@ -5,4 +5,8 @@ export default {
   dinner: "Απογευματινό",
   mealType: "Τύπος Γεύματος",
   timeServed: "Ώρες Σερβιρίσματος",
+  firstDish: "Πρώτο Πιάτο",
+  mainDish: "Κυρίως Πιάτο",
+  sideDish: "Συνοδευτικό",
+  dessert: "Επιδόρπιο",
 };
